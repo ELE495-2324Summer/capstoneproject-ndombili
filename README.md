@@ -67,6 +67,20 @@ ldconfig
 
 Download or Clone main.py ultrasonic.py socket_server.py and models folder from this repo into the docker environement.
 
+Models used for Road following and Collision avoidence needs to be downloaded manually from the link below (because of the large file size) \
+
+[Download Models](https://drive.google.com/drive/folders/1K9h_5UuOM2FzX6DYbM1fD55CvJnAI5uD?usp=sharing)
+
+The file structure should look like this,
+```bash
+/ / code
+-main.py
+-socket_server.py
+-ultrasonic.py
+/ models
+  -best_model.pth
+  -best_steering_model_xy_trt.pth
+```
 ## Usage
 To use the Robot, simplest way is hardcoding the plate number into the main.py and running the main.py using python >= 3.6.9 
 
